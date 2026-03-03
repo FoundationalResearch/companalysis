@@ -1,0 +1,18 @@
+{
+  "name": "@foundationalresearch/companalysis",
+  "version": "1.0.0",
+  "description": "Competitive analysis skill — cross-company comparison and sector benchmarking for financial analysis agents",
+  "keywords": ["ai-skill", "financial-analysis", "competitive-analysis", "sector-comparison", "llm", "claude", "cursor", "codex", "benchmarking"],
+  "author": "FoundationalResearch",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FoundationalResearch/companalysis.git"
+  },
+  "homepage": "https://github.com/FoundationalResearch/companalysis#readme",
+  "bugs": {
+    "url": "https://github.com/FoundationalResearch/companalysis/issues"
+  },
+  "files": ["SKILL.md", "pipeline.yaml", "README.md", "LICENSE"],
+  "type": "module"
+}
