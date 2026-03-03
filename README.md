@@ -10,6 +10,18 @@ This package contains no executable code. It is a declarative skill definition (
 
 ---
 
+## Install
+
+```bash
+npx skills add FoundationalResearch/skills@comp-analysis
+```
+
+Works with **Claude Code, Cursor, GitHub Copilot, Codex, Gemini, Windsurf**, and [20+ other agents](https://skills.sh).
+
+> Part of the [FoundationalResearch Skills](https://github.com/FoundationalResearch/skills) collection -- 14 professional financial analysis skills for AI agents.
+
+---
+
 ## What It Does
 
 Given a list of ticker symbols and an optional sector, this skill runs a four-stage analysis pipeline:
@@ -36,7 +48,7 @@ The final output is a structured Markdown report containing:
 
 All intermediate stage outputs (raw data, normalized metrics, comparative analysis) are also saved for transparency and auditability.
 
-## Installation
+## Also available on npm
 
 ```bash
 npm install @foundationalresearch/companalysis

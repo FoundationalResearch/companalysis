@@ -1,29 +1,6 @@
 ---
 name: comp-analysis
-title: Competitive Analysis
-version: "1.0"
 description: Cross-company comparative analysis with sector benchmarking
-author: FoundationalResearch
-tags:
-  - competitive-analysis
-  - sector-comparison
-  - benchmarking
-  - financial-analysis
-  - multi-company
-inputs:
-  tickers:
-    type: "string[]"
-    required: true
-    description: List of ticker symbols to compare (e.g., ["AAPL", "MSFT", "GOOGL"])
-  sector:
-    type: string
-    required: false
-    description: Industry sector for contextual benchmarks (e.g., "Technology", "Healthcare")
-tools_required:
-  - edgar
-  - market-data
-tools_optional:
-  - news
 ---
 
 # Competitive Analysis Skill
